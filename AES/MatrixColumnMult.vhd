@@ -18,12 +18,6 @@ component ByteMultBy2
 			  );
 end component;
 
-component ByteMultBy3
-    Port ( Byte 	: in  STD_LOGIC_VECTOR (7 downto 0);
-           Result : out  STD_LOGIC_VECTOR (7 downto 0)
-			  );
-end component;
-
 signal m0, m1, m2, m3 : STD_LOGIC_VECTOR (7 downto 0);
 signal s0, s1, s2, s3 : STD_LOGIC_VECTOR (7 downto 0);
 
